@@ -7,13 +7,12 @@
       
       <h1>Angular II</h1>
       <a mat-list-item [routerLink]="'/home'"> Home </a>
-      <a mat-list-item [routerLink]="'/shop'"> Shop </a>
+      <a mat-list-item (click)="sidenav.toggle()"> Shop </a>
       <a mat-list-item [routerLink]="'/faq'"> FAQ </a>
       <a mat-list-item [routerLink]="'/contactus'"> Contact Us </a>
       <a><input type="string" matInput placeholder="Search"></a>      
-      
-      <a mat-list-item [routerLink]="'/login'"> <mat-icon>person</mat-icon></a>
       <a mat-list-item [routerLink]= "'/cart'"> <mat-icon>shopping_cart</mat-icon> </a>
+      <a mat-list-item [routerLink]="'/login'"> <mat-icon>person</mat-icon></a>
     </mat-toolbar-row>    
 
   </mat-toolbar>
