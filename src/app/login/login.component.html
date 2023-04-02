@@ -1,1 +1,19 @@
-<p>login works!</p>
+<div class="flex-container" fxLayout.xs="column">
+    <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Username</mat-label>
+          <input matInput placeholder="Placeholder">
+        </mat-form-field>
+      </p>
+    
+    <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="Placeholder">
+          
+        </mat-form-field>
+      </p>
+      
+      <button mat-button [routerLink]="['/heroes']">Submit</button> 
+</div>
+ 
