@@ -14,6 +14,7 @@ import { MugsComponent } from './shop/mugs/mugs.component';
 import { NotebooksComponent } from './shop/notebooks/notebooks.component';
 import { ShopallComponent } from './shop/shopall/shopall.component';
 import { WaterbottlesComponent } from './shop/waterbottles/waterbottles.component';
+import { ForgotPasswordComponent } from './login/forgot-password/forgot-password.component';
 
 const routes: Routes = [
   {path: 'cart', component:CartComponent},
@@ -29,6 +30,7 @@ const routes: Routes = [
   {path: 'notebooks', component:NotebooksComponent},
   {path: 'shopall', component:ShopallComponent},
   {path: 'waterbottles', component:WaterbottlesComponent},
+  {path: 'forgot-password', component:ForgotPasswordComponent},
   {path: '', redirectTo: '/home', pathMatch:'full'}
 ];
 

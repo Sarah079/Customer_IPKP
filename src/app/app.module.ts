@@ -25,6 +25,7 @@ import { WaterbottlesComponent } from './shop/waterbottles/waterbottles.componen
 import { MugsComponent } from './shop/mugs/mugs.component';
 import { GlassesComponent } from './shop/glasses/glasses.component';
 import { NotebooksComponent } from './shop/notebooks/notebooks.component';
+import { ForgotPasswordComponent } from './login/forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { NotebooksComponent } from './shop/notebooks/notebooks.component';
     WaterbottlesComponent,
     MugsComponent,
     GlassesComponent,
-    NotebooksComponent
+    NotebooksComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
