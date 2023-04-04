@@ -1,1 +1,60 @@
-<p>create-profile works!</p>
+<div class="flex-container" fxLayout.xs="column">
+    <h2>Create Profile</h2>
+    <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Email</mat-label>
+          <input matInput placeholder="Placeholder">
+        </mat-form-field>
+      </p>    
+    <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="House number and street name">
+          <input matInput placeholder="City">
+          <input matInput placeholder="Province">
+          <input matInput placeholder="Area Code">
+        </mat-form-field>
+      </p>
+    <p>
+        <mat-form-field appearance="outline">
+          <mat-label>First Name </mat-label>
+          <input matInput placeholder="First Name">
+          <mat-label>Last Name </mat-label>
+          <input matInput placeholder="Last Name">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Gender</mat-label>
+          <input matInput placeholder="*Optional">
+          
+        </mat-form-field>
+      </p>
+</div>
+
+<!--pasword creation-->
+<div class="flex-container" fxLayout.xs="column">
+    <h2>Create Profile</h2>
+    <p>
+        <mat-form-field appearance="fill">
+          <mat-label>Username</mat-label>
+          <input matInput placeholder="Placeholder">
+        </mat-form-field>
+      </p>    
+    <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="Placeholder">
+          
+        </mat-form-field>
+      </p>
+    <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Confirm Password</mat-label>
+          <input matInput placeholder="Placeholder">
+          
+        </mat-form-field>
+      </p>
+      
+      <button mat-button [routerLink]="['/heroes']">Submit</button> 
+</div>
