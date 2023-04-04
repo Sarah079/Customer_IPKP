@@ -9,6 +9,14 @@ import { MatSidenav } from '@angular/material/sidenav';
 export class AppComponent {
   title = 'Customer_IPKP';
   @ViewChild('sidenav', {static:true}) sidenav!: MatSidenav;
+  
+  //logopath:
+  logopath: string;
+  
+  constructor() {
+    //image location
+    this.logopath = '/assets/images/Logo.jpg'
+  }
 
   toggleSidenav(){
     this.sidenav.toggle();

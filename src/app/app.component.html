@@ -5,7 +5,8 @@
   <mat-toolbar color="">
     <mat-toolbar-row>
       
-      <h1>Angular II</h1>
+      
+      <a mat-list-item [routerLink]="'/home'"> <img [src]="logopath" > </a>
       <a mat-list-item [routerLink]="'/home'"> Home </a>
       <a mat-list-item (click)="sidenav.toggle()"> Shop </a>
       <a mat-list-item [routerLink]="'/faq'"> FAQ </a>
