@@ -26,6 +26,7 @@ import { MugsComponent } from './shop/mugs/mugs.component';
 import { GlassesComponent } from './shop/glasses/glasses.component';
 import { NotebooksComponent } from './shop/notebooks/notebooks.component';
 import { ForgotPasswordComponent } from './login/forgot-password/forgot-password.component';
+import { CreateProfileComponent } from './login/create-profile/create-profile.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { ForgotPasswordComponent } from './login/forgot-password/forgot-password
     MugsComponent,
     GlassesComponent,
     NotebooksComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    CreateProfileComponent
   ],
   imports: [
     BrowserModule,
