@@ -3,11 +3,9 @@
   <!--Material navbar-->
   
   <mat-toolbar >
-    <mat-toolbar-row class="header">
-      <img [src]="logopath" > 
-
-    </mat-toolbar-row>
-    <mat-toolbar-row class="navbar">          
+   
+    <mat-toolbar-row class="navbar"> 
+      <a mat-list-item [routerLink]="'/home'"> <img [src]="logopath" >  </a>         
       <a mat-list-item [routerLink]="'/home'"> Home </a>
       <a mat-list-item (click)="sidenav.toggle()"[routerLink]="'/shopall'"> Shop </a>
       <a mat-list-item [routerLink]="'/faq'"> FAQ </a>
