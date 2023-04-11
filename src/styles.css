@@ -2,12 +2,13 @@
 
 html, body { 
     height: 100%; 
-   background-color: #FEE1E8; ;
+   background-color: #FEE1E8; 
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .homecontainer{
     text-align: center;
+    background-color: #FEE1E8; 
 }
 h1, h2, h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

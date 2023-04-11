@@ -10,10 +10,10 @@ p{
 }
 .side-container {
     min-width: 200px;
-   background-color: #CCE2CB; /*#FEE1E8*/
+   background-color: #FEE1E8; /*#FEE1E8*/
   }
 .navbar{
-  background-color: #CCE2CB;
+  background-color: #FEE1E8;
 }
 .header{
   background-color: white;
@@ -27,7 +27,7 @@ img{
 }
   .content-container {
     padding: 10px;
-    background-color: #FEE1E8; 
+    background-color: white;
    
   }
 
