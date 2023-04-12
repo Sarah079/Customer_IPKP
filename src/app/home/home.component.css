@@ -4,3 +4,8 @@
 body{
    background-color: white; /*FEE1E8*/
 }
+#best-seller-img{
+    height: 4cm;
+    width: 5cm;
+    padding-left: 1cm;
+}
