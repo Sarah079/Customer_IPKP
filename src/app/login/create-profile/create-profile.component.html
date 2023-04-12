@@ -1,40 +1,57 @@
 <div class="flex-container" fxLayout.xs="column" style="text-align: center;">
     <h2>Create Profile</h2>
     <p>
-        <mat-form-field appearance="fill">
+      
+        <mat-form-field appearance="fill" >
           <mat-label>Email</mat-label>
           <input matInput placeholder="Placeholder">
-        </mat-form-field>
-      </p>    
-    <p>
-        <mat-form-field appearance="outline">
-          <mat-label>Password</mat-label>
-          <input matInput placeholder="House number and street name">
-          <input matInput placeholder="City">
-          <input matInput placeholder="Province">
-          <input matInput placeholder="Area Code">
-        </mat-form-field>
-      </p>
-    <p>
-        <mat-form-field appearance="outline">
+        </mat-form-field><br>
+      
+        <mat-form-field appearance="fill">
           <mat-label>First Name </mat-label>
-          <input matInput placeholder="First Name">
+          <input matInput placeholder="First Name">          
+        </mat-form-field><br>
+    
+        <mat-form-field appearance="fill">
           <mat-label>Last Name </mat-label>
           <input matInput placeholder="Last Name">
-        </mat-form-field>
-      </p>
-      <p>
-        <mat-form-field appearance="outline">
+        </mat-form-field> <br>
+
+        <mat-form-field appearance="fill">
           <mat-label>Gender</mat-label>
           <input matInput placeholder="*Optional">
-          
         </mat-form-field>
-      </p>
+      </p>    
+
+      
+       <div>
+        <p style="font-weight: bolder;"> Address: </p>
+        <mat-form-field appearance="fill">
+          <mat-label>House no. and street name</mat-label>
+          <input matInput placeholder="House no. and street name">
+        </mat-form-field><br>
+        <mat-form-field appearance="fill">
+          <mat-label>City</mat-label>
+          <input matInput placeholder="City">
+        </mat-form-field><br>
+        <mat-form-field appearance="fill">
+          <mat-label>Province</mat-label>
+          <input matInput placeholder="Province">
+        </mat-form-field><br>
+        <mat-form-field appearance="fill">
+          <mat-label>Area Code</mat-label>
+          <input matInput placeholder="Area Code">
+        </mat-form-field>
+    
+       </div>
+     
+      
+
 </div>
 
 <!--pasword creation-->
-<div class="flex-container" fxLayout.xs="column">
-    <h2>Create Profile</h2>
+<div class="flex-container" fxLayout.xs="column" style="text-align: center;">
+    <h2>Create Username and Password </h2>
     <p>
         <mat-form-field appearance="fill">
           <mat-label>Username</mat-label>
@@ -56,5 +73,5 @@
         </mat-form-field>
       </p>
       
-      <button mat-button [routerLink]="['/heroes']">Submit</button> 
+      <button mat-button [routerLink]="['/heroes']" id="submit-btn">Submit</button> 
 </div>

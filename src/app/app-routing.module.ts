@@ -15,6 +15,7 @@ import { NotebooksComponent } from './shop/notebooks/notebooks.component';
 import { ShopallComponent } from './shop/shopall/shopall.component';
 import { WaterbottlesComponent } from './shop/waterbottles/waterbottles.component';
 import { ForgotPasswordComponent } from './login/forgot-password/forgot-password.component';
+import { CreateProfileComponent } from './login/create-profile/create-profile.component';
 
 const routes: Routes = [
   {path: 'cart', component:CartComponent},
@@ -31,6 +32,7 @@ const routes: Routes = [
   {path: 'shopall', component:ShopallComponent},
   {path: 'waterbottles', component:WaterbottlesComponent},
   {path: 'forgot-password', component:ForgotPasswordComponent},
+  {path: 'create-profile', component:CreateProfileComponent},
   {path: '', redirectTo: '/home', pathMatch:'full'}
 ];
 
